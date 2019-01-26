@@ -8,6 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "test": "jest",
     "type-check": "tsc"
   },
   "dependencies": {
@@ -17,9 +18,17 @@
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
+    "@types/jest": "^23.3.13",
     "@types/next": "^7.0.6",
     "@types/react": "^16.7.21",
     "@types/react-dom": "^16.0.11",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.0.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "jest": "^24.0.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.7.0",
     "typescript": "^3.2.4"
   }
 }
