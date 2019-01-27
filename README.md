@@ -1,4 +1,4 @@
-# Next.JS Boilerplate
+# Next.JS Boilerplate [![CircleCI](https://circleci.com/gh/mrisoli/nextjs-boilerplate.svg?style=svg)](https://circleci.com/gh/mrisoli/nextjs-boilerplate)
 
 This is a Next.js boilerplate code including:
 
