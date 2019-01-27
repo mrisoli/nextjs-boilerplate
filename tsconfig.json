@@ -20,6 +20,7 @@
   "exclude": [
     "coverage",
     "node_modules",
+    "*.js",
     "**/*.spec.ts",
     "**/*.spec.tsx",
     "**/*.test.ts",
