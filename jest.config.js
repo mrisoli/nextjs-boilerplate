@@ -1,12 +1,12 @@
-const TEST_REGEX = '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|js?|tsx?|ts?)$'
+const TEST_REGEX = '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|js?|tsx?|ts?)$';
 
 module.exports = {
+  collectCoverage: true,
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   setupFiles: ['<rootDir>/jest.setup.js'],
+  testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
   testRegex: TEST_REGEX,
   transform: {
-    '^.+\\.tsx?$': 'babel-jest'
+    '^.+\\.tsx?$': 'babel-jest',
   },
-  testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  collectCoverage: true
-}
+};

@@ -5,8 +5,9 @@
   "author": "Marcelo Risoli<marcelo@risoli.co>",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
     "build": "next build",
+    "dev": "next",
+    "lint": "tslint --project tsconfig.json --format stylish",
     "start": "next start",
     "test": "jest",
     "type-check": "tsc"
