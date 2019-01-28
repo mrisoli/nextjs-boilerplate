@@ -32,3 +32,5 @@ jobs:
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
+      - codecov/upload:
+          file: .codecov.yml
