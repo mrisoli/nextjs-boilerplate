@@ -3,9 +3,6 @@ orbs:
   codecov: codecov/codecov@1.0.3
 jobs:
   build:
-    branches:
-      only:
-        - master
     docker:
       - image: circleci/node@11.8.0
     working_directory: ~/repo
@@ -36,4 +33,4 @@ jobs:
           paths:
             - ~/.cache/yarn
       - codecov/upload:
-        file: .codecov.yml
+          file: .codecov.yml
