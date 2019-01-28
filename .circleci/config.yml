@@ -30,12 +30,10 @@ jobs:
       - run:
           name: Run tests with JUnit as reporter
           command: yarn test:coverage
-          environment:
-            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
       - store_test_results:
-          path: reports/junit
+          path: coverage
       - store_artifacts:
-          path: reports/junit
+          path: coverage
       - save_cache:
           name: Save Yarn Package Cache
           key: yarn-packages-{{ checksum "yarn.lock" }}

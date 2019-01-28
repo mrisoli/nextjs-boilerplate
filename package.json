@@ -10,7 +10,7 @@
     "lint": "tslint --project tsconfig.json --format stylish",
     "start": "next start",
     "test": "jest",
-    "test:coverage": "jest --ci --runInBand --reporters=default --reporters=jest-junit",
+    "test:coverage": "jest --coverage",
     "type-check": "tsc --noEmit"
   },
   "husky": {
