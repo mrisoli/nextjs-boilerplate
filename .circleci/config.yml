@@ -1,11 +1,13 @@
-version: 2
+version: 2.1
+orbs:
+  codecov: codecov/codecov@1.0.3
 jobs:
   build:
     branches:
       only:
         - master
     docker:
-      - image: deptno/circleci-awscli-node8:0.1
+      - image: circleci/node@11.8.0
     working_directory: ~/repo
 
     steps:
@@ -33,3 +35,5 @@ jobs:
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
+      - codecov/upload:
+        file: .codecov.yml
