@@ -1,6 +1,4 @@
 version: 2.1
-orbs:
-  codecov: codecov/codecov@1.0.3
 jobs:
   build:
     docker:
@@ -32,5 +30,3 @@ jobs:
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
-      - codecov/upload:
-          file: .codecov.yml
