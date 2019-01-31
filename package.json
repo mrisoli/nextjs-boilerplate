@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/jest": "^23.3.13",
     "@types/next": "^7.0.6",
-    "@types/react": "^16.7.21",
+    "@types/react": "^16.8.0",
     "@types/react-dom": "^16.0.11",
     "@types/styled-components": "^4.1.6",
     "babel-core": "^6.26.3",
