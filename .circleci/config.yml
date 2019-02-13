@@ -3,11 +3,10 @@ orbs:
   codecov: codecov/codecov@1.0.3
   percy: percy/agent@0.1.3
 jobs:
-  run_tests:
+  build:
     docker:
       - image: circleci/node:11.8.0
     working_directory: ~/repo
-
     steps:
       - checkout
       - restore_cache:
@@ -19,18 +18,27 @@ jobs:
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
+  lint:
+    docker:
+      - image: circleci/node:11.8.0
+    steps:
       - run:
           name: Check typescript compilation
           command: yarn type-check
       - run:
           name: Check linter
           command: yarn lint
-      - run:
-          name: Install JUnit coverage reporter
-          command: yarn add --dev jest-junit
+  run_tests:
+    docker:
+      - image: circleci/node:11.8.0
+    steps:
       - run:
           name: Run tests with JUnit as reporter
           command: yarn test:coverage
+  test_data:
+    docker:
+      - image: circleci/node:11.8.0
+    steps:
       - store_test_results:
           path: coverage
       - store_artifacts:
@@ -41,11 +49,21 @@ jobs:
           paths:
             - ~/.cache/yarn
       - codecov/upload:
-          file: .codecov.yml
+          file: coverage
+
 workflows:
-  test:
+  build_and_test:
     jobs:
-      - run_tests
+      - build
+      - lint:
+          requires:
+            - build
+      - run_tests:
+          requires:
+            - lint
+      - test_data:
+          requires:
+            - run_tests
       - percy/finalize_all:
           requires:
             - run_tests
