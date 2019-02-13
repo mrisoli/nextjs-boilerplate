@@ -61,7 +61,10 @@ jobs:
 workflows:
   build_and_test:
     jobs:
-      - build
+      - checkout
+      - build:
+          requires:
+            - checkout
       - lint:
           requires:
             - build
