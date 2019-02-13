@@ -19,7 +19,7 @@ jobs:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
       - attach_workspace:
-          at: /tmp/workspace
+          at: .
   lint:
     docker:
       - image: circleci/node:11.8.0
