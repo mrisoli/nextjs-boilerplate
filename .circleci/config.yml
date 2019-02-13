@@ -1,7 +1,7 @@
 defaults: &defaults
   docker:
     - image: circleci/node:11.8.0
-  working_directory: /tmp/workspace
+  working_directory: ~/repo
 version: 2.1
 orbs:
   codecov: codecov/codecov@1.0.3
@@ -12,7 +12,7 @@ jobs:
     steps:
       - checkout
       - attach_workspace:
-          at: /tmp/workspace
+          at: ~/repo
       - restore_cache:
           name: Restore Yarn Package Cache
           keys:
@@ -23,7 +23,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: /tmp/workspace
+          at: ~/repo
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
@@ -31,7 +31,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: /tmp/workspace
+          at: ~/repo
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
@@ -45,7 +45,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: /tmp/workspace
+          at: ~/repo
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
