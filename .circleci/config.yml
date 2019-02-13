@@ -33,6 +33,9 @@ jobs:
       - attach_workspace:
           at: /tmp/workspace
       - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile
+      - run:
           name: Check typescript compilation
           command: yarn type-check
       - run:
@@ -43,6 +46,9 @@ jobs:
     steps:
       - attach_workspace:
           at: /tmp/workspace
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile
       - run:
           name: Run tests with JUnit as reporter
           command: yarn test:coverage
