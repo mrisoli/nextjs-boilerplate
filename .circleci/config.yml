@@ -47,5 +47,5 @@ workflows:
     jobs:
       - run_tests
       - percy/finalize_all:
-        requires:
-          - run_tests
+          requires:
+            - run_tests
