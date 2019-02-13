@@ -1,8 +1,9 @@
 version: 2.1
 orbs:
   codecov: codecov/codecov@1.0.3
+  percy: percy/agent@0.1.2
 jobs:
-  build:
+  run_tests:
     docker:
       - image: circleci/node:11.8.0
     working_directory: ~/repo
@@ -41,3 +42,10 @@ jobs:
             - ~/.cache/yarn
       - codecov/upload:
           file: .codecov.yml
+workflows:
+  test:
+    jobs:
+      - run_tests
+      - percy/finalize_all:
+        requires:
+          - run_tests
