@@ -30,7 +30,7 @@
     "@zeit/next-typescript": "^1.1.1",
     "next": "^8.0.1",
     "polished": "^2.3.3",
-    "react": "^16.8.1",
+    "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "styled-components": "^4.1.3"
   },
