@@ -38,7 +38,7 @@
     "@storybook/addon-actions": "^4.1.11",
     "@storybook/addon-info": "^4.1.11",
     "@storybook/addon-links": "^4.1.11",
-    "@storybook/addons": "^4.1.11",
+    "@storybook/addons": "^4.1.12",
     "@storybook/react": "^4.1.11",
     "@types/jest": "^24.0.6",
     "@types/next": "^8.0.1",
