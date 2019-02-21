@@ -1169,14 +1169,14 @@
     react-inspector "^2.3.0"
     uuid "^3.3.2"
 
-"@storybook/addon-info@^4.1.12":
-  version "4.1.12"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-4.1.12.tgz#cbc95ee488cef2131083d0c8e6b95a32287cbb5e"
-  integrity sha512-cbIzcHS+JkveM9ySwOtpsRsb++jHXqgpL0JPrzOQ0okXr/KcLZglUeijCvnRZgzfQJhQeUBX5t7YWMEnCtPZGA==
+"@storybook/addon-info@^4.1.13":
+  version "4.1.13"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-4.1.13.tgz#b91494a5f4e69998fee9a3110717c2bb208f1542"
+  integrity sha512-l30GWUUYGpXhYCyO3yKEdlBCc/Vc7+q2tQ3VdOmlMcPZGW9QxJg6Qav3GC8aIPlAhcFwlzxE4bT+0sCQGSKUIQ==
   dependencies:
-    "@storybook/addons" "4.1.12"
-    "@storybook/client-logger" "4.1.12"
-    "@storybook/components" "4.1.12"
+    "@storybook/addons" "4.1.13"
+    "@storybook/client-logger" "4.1.13"
+    "@storybook/components" "4.1.13"
     core-js "^2.5.7"
     global "^4.3.2"
     marksy "^6.1.0"
@@ -1236,11 +1236,6 @@
   version "4.1.13"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.1.13.tgz#4b58d1f17916e6ba1ee633f0c014edb5b7b26b17"
   integrity sha512-58GNagdBKagAGDVhdkNVB2cFOLBDAft7Ky2qDdha9pZyyTwJy5VqchvNQokv7kgwCusmic2vYEO35fVY1/v2cQ==
-
-"@storybook/client-logger@4.1.12":
-  version "4.1.12"
-  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-4.1.12.tgz#501fa0ccefd0c363a1afb5550e5a34814a8d09d2"
-  integrity sha512-G/ZzPxURIjTiDaWKlQxxhAhFMT5CR16Twxz8pJzDISi36cbNibf9KtkKf88w6iDB9PRsUcCMXSOqFFiZs+RpFA==
 
 "@storybook/client-logger@4.1.13":
   version "4.1.13"
