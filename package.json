@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^4.1.12",
-    "@storybook/addon-info": "^4.1.12",
+    "@storybook/addon-info": "^4.1.13",
     "@storybook/addon-links": "^4.1.13",
     "@storybook/addons": "^4.1.13",
     "@storybook/react": "^4.1.13",
