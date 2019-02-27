@@ -8,6 +8,8 @@ This is a Next.js boilerplate code including:
 - Prettier for code formatting
 - Styled-components for styling and theming along with polished
 - Docker
+- Storybook
+- circleci config
 
 ## How to use
 
@@ -44,6 +46,22 @@ docker run --rm -it \
   next-app
 ```
 
+### Tests
+
+```bash
+npm run test
+# or
+yarn test
+```
+
+### storybook
+
+```bash
+npm run storybook
+# or
+yarn storybook
+```
+
 ### Deployment:
 
 Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download)) with docker
@@ -51,3 +69,10 @@ Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.
 ```bash
 now --docker
 ```
+
+### Upcoming
+
+- adding [percy](https://percy.io) for visual snapshot testing
+- adding [codecov](https://codecov.io) for code coverage reports
+- apollo and graphql setup
+- redux for state management
