@@ -53,7 +53,9 @@ jobs:
             - ~/.cache/yarn
 
   snapshot:
-    <<: *defaults
+    docker:
+      - image: circleci/node:latest-browsers
+    working_directory: ~/repo
     steps:
       - attach_workspace:
           at: /home/circleci
