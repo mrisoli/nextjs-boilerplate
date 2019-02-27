@@ -10,9 +10,6 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-      - persist_to_workspace:
-          root: ~/repo
-          paths: ~/repo
       - restore_cache:
           name: Restore Yarn Package Cache
           keys:
@@ -22,11 +19,15 @@ jobs:
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
+      - persist_to_workspace:
+          root: /home/circleci
+          paths:
+            - repo
   lint:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/repo
+          at: /home/circleci
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
@@ -40,7 +41,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/repo
+          at: /home/circleci
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
