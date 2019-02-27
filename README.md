@@ -13,6 +13,10 @@ This is a Next.js boilerplate code including:
 
 ## How to use
 
+### node version
+
+node version is defined at the `.nvmrc` file and can be loaded using `nvm` by running `nvm use` command
+
 ### Install dependencies
 
 ```bash
