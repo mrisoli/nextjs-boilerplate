@@ -60,6 +60,8 @@ jobs:
       - run:
           name: Take snapshots with percy
           command: yarn run snapshot
+      - store_artifacts:
+          path: storybook-static/
 
 workflows:
   build_and_test:
