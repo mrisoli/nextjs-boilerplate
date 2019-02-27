@@ -1,6 +1,8 @@
-# Next.JS Boilerplate [![CircleCI](https://circleci.com/gh/mrisoli/nextjs-boilerplate.svg?style=svg)](https://circleci.com/gh/mrisoli/nextjs-boilerplate)
+# Next.JS Boilerplate [![CircleCI](https://circleci.com/gh/mrisoli/nextjs-boilerplate.svg?style=svg)](https://circleci.com/gh/mrisoli/nextjs-boilerplate) [![codecov](https://codecov.io/gh/mrisoli/nextjs-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/mrisoli/nextjs-boilerplate)
 
-This is a Next.js boilerplate code including:
+## Motivation
+
+I am an avid user of [Next.js](https://github.com/zeit/next.js), their repo contains tons of useful [examples](https://github.com/zeit/next.js/tree/canary/examples) for integarting with isolated tooling or features, often I spent a lot of time glueing together different tooling in what ended up being a tedious setup process, so I created this boilerplate including:
 
 - Typescript for type safety
 - Jest for tests
@@ -11,6 +13,7 @@ This is a Next.js boilerplate code including:
 - Storybook
 - circleci config
 - [percy](https://percy.io) for visual snapshot testing
+- [codecov](https://codecov.io) for code coverage reports
 
 ## How to use
 
@@ -77,6 +80,5 @@ now --docker
 
 ### Upcoming
 
-- adding [codecov](https://codecov.io) for code coverage reports
 - apollo and graphql setup
 - redux for state management
