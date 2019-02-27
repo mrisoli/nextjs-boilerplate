@@ -52,6 +52,8 @@ jobs:
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
+      - codecov/upload:
+          file: coverage/coverage-final.json
 
   snapshot:
     docker:
@@ -82,7 +84,3 @@ workflows:
       - percy/finalize_all:
           requires:
             - snapshot
-      - codecov/upload:
-          requires:
-            - test
-          file: coverage/coverage-final.json
