@@ -11,8 +11,9 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-      - attach_workspace:
+      - persist_to_workspace:
           at: ~/repo
+          paths: ~/repo
       - restore_cache:
           name: Restore Yarn Package Cache
           keys:
@@ -25,7 +26,8 @@ jobs:
   lint:
     <<: *defaults
     steps:
-      - checkout
+      - attach_workspace:
+          at: ~/repo
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
@@ -38,7 +40,8 @@ jobs:
   test:
     <<: *defaults
     steps:
-      - checkout
+      - attach_workspace:
+          at: ~/repo
       - run:
           name: Install Dependencies
           command: yarn install --frozen-lockfile
