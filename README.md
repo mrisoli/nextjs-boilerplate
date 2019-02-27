@@ -10,6 +10,7 @@ This is a Next.js boilerplate code including:
 - Docker
 - Storybook
 - circleci config
+- [percy](https://percy.io) for visual snapshot testing
 
 ## How to use
 
@@ -76,7 +77,6 @@ now --docker
 
 ### Upcoming
 
-- adding [percy](https://percy.io) for visual snapshot testing
 - adding [codecov](https://codecov.io) for code coverage reports
 - apollo and graphql setup
 - redux for state management
