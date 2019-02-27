@@ -52,6 +52,15 @@ jobs:
           paths:
             - ~/.cache/yarn
 
+  snapshot:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /home/circleci
+      - run:
+          name: Take snapshots with percy
+          command: yarn run snapshot
+
 workflows:
   build_and_test:
     jobs:
@@ -62,6 +71,9 @@ workflows:
       - test:
           requires:
             - lint
-      - percy/finalize_all:
+      - snapshot:
           requires:
             - test
+      - percy/finalize_all:
+          requires:
+            - snapshot
