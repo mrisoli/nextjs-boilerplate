@@ -1,4 +1,8 @@
-# Next.JS Boilerplate [![CircleCI](https://circleci.com/gh/mrisoli/nextjs-boilerplate.svg?style=svg)](https://circleci.com/gh/mrisoli/nextjs-boilerplate) [![codecov](https://codecov.io/gh/mrisoli/nextjs-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/mrisoli/nextjs-boilerplate)
+# Next.JS Boilerplate
+
+[![CircleCI](https://circleci.com/gh/mrisoli/nextjs-boilerplate.svg?style=svg)](https://circleci.com/gh/mrisoli/nextjs-boilerplate)
+[![codecov](https://codecov.io/gh/mrisoli/nextjs-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/mrisoli/nextjs-boilerplate)
+![GitHub](https://img.shields.io/github/license/mrisoli/nextjs-boilerplate.svg)
 
 ## Motivation
 
@@ -14,6 +18,8 @@ I am an avid user of [Next.js](https://github.com/zeit/next.js), their repo cont
 - circleci config
 - [percy](https://percy.io) for visual snapshot testing
 - [codecov](https://codecov.io) for code coverage reports
+
+This project also includes some tooling, templates, and acts as a sandbox for me testing features and integrations
 
 ## How to use
 
@@ -36,7 +42,7 @@ Or build with docker:
 docker build -t next-app .
 ```
 
-### Run it locally
+## Run it locally
 
 Development server:
 
@@ -54,7 +60,7 @@ docker run --rm -it \
   next-app
 ```
 
-### Tests
+## Tests
 
 ```bash
 npm run test
@@ -62,7 +68,7 @@ npm run test
 yarn test
 ```
 
-### storybook
+## storybook
 
 ```bash
 npm run storybook
@@ -70,7 +76,7 @@ npm run storybook
 yarn storybook
 ```
 
-### Deployment:
+## Deployment:
 
 Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download)) with docker
 
@@ -78,7 +84,11 @@ Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.
 now --docker
 ```
 
-### Upcoming
+## Contributing
+
+Please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Upcoming
 
 - apollo and graphql setup
 - redux for state management
