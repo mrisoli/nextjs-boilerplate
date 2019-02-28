@@ -1,6 +1,6 @@
-import { IThemeInterface } from "../theme/types"
+import { ThemeInterface } from '../theme/types';
 
-export type LayoutProps = {
+export interface LayoutProps {
   title?: string;
-  theme?: IThemeInterface;
+  theme?: ThemeInterface;
 }

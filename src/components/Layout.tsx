@@ -10,17 +10,19 @@ export const Layout: React.SFC<LayoutProps> = ({
   children,
   title = "Next.js Boilerplate",
   theme = defaultTheme
-}) => (
-  <ThemeProvider theme={theme}>
-    <React.Fragment>
-    <Head>
-      <title>{title}</title>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-    </Head>
+}) => {
+  return (
+    <ThemeProvider theme={theme}>
+      <React.Fragment>
+        <Head>
+          <title>{title}</title>
+          <meta charSet='utf-8' />
+          <meta name='viewport' content='initial-scale=1.0, width=device-width' />
+        </Head>
 
-    {children}
-    </React.Fragment>
+        {children}
+      </React.Fragment>
 
-  </ThemeProvider>
-);
+    </ThemeProvider>
+  )
+};

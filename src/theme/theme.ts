@@ -1,5 +1,5 @@
-import { IThemeInterface } from "./types";
+import { ThemeInterface } from './types';
 
-export const defaultTheme: IThemeInterface = {
-  primaryColor: "#000"
+export const defaultTheme: ThemeInterface = {
+  primaryColor: '#000',
 };
