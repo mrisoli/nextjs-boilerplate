@@ -1,6 +1,8 @@
 # Next.JS Boilerplate
 
-[![CircleCI](https://circleci.com/gh/mrisoli/nextjs-boilerplate.svg?style=svg)](https://circleci.com/gh/mrisoli/nextjs-boilerplate) [![codecov](https://codecov.io/gh/mrisoli/nextjs-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/mrisoli/nextjs-boilerplate)
+[![CircleCI](https://circleci.com/gh/mrisoli/nextjs-boilerplate.svg?style=svg)](https://circleci.com/gh/mrisoli/nextjs-boilerplate)
+[![codecov](https://codecov.io/gh/mrisoli/nextjs-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/mrisoli/nextjs-boilerplate)
+![GitHub](https://img.shields.io/github/license/mrisoli/nextjs-boilerplate.svg)
 
 ## Motivation
 
