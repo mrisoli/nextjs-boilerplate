@@ -10,7 +10,7 @@ I am an avid user of [Next.js](https://github.com/zeit/next.js), their repo cont
 
 - Typescript for type safety
 - Jest for tests
-- TSLint for linting
+- Typescript-ESLint for linting
 - Prettier for code formatting
 - Styled-components for styling and theming along with polished
 - Docker

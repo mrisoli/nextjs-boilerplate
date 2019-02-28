@@ -1,3 +1,3 @@
-export interface IThemeInterface {
+export interface ThemeInterface {
   primaryColor: string;
 }
