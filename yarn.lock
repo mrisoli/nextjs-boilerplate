@@ -1211,7 +1211,7 @@
     prop-types "^15.6.2"
     qs "^6.5.2"
 
-"@storybook/addons@4.1.13", "@storybook/addons@^4.1.13":
+"@storybook/addons@4.1.13":
   version "4.1.13"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.1.13.tgz#801cbb6bf7f7b4d494ae20df43b4b8c406b32e19"
   integrity sha512-5WqXwFOc5Oj/ccem7I5FXTWJlCxfgzCgUlWGwkut/ahfuKkcvAPFKuRslReCWLT0sBZl8iap49HgYSNGDztAbA==
@@ -1221,7 +1221,7 @@
     global "^4.3.2"
     util-deprecate "^1.0.2"
 
-"@storybook/addons@5.0.0":
+"@storybook/addons@5.0.0", "@storybook/addons@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.0.0.tgz#543b7d7166b9e2dd46467a3bc8f68074fa156cce"
   integrity sha512-4KK7/5Qw1jJU70xpg1eFfNsPU4SnsAnb4MC0kv4zbSSpoHOxAdZKL9wHidnPPwRigeKkxgIWqDKzWOB5flHTSw==
