@@ -1,4 +1,4 @@
-module.exports = (baseConfig, env, config) => {
+module.exports = ({ config, mode }) => {
   config.module.rules.push({
     test: /\.(ts|tsx)$/,
     loader: require.resolve('babel-loader'),
