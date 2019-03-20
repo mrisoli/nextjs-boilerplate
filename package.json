@@ -48,7 +48,7 @@
     "@types/react-dom": "^16.8.2",
     "@types/storybook__react": "^4.0.1",
     "@types/styled-components": "^4.1.12",
-    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.5.0",
     "babel-loader": "^8.0.5",
