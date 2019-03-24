@@ -1429,15 +1429,15 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@storybook/addon-actions@^5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-5.0.4.tgz#e48f752e41e31fa4e63b4ed7094de8633b942dc5"
-  integrity sha512-c2vRJrXOaijjbyg8RObD+0l3RFic4dnZRj1ZSM9KwmDj7eCVxo8JtquLidnPock2aowi1bfgkevxM/9RQYzkYQ==
+"@storybook/addon-actions@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-5.0.5.tgz#9179d08262c326c865021f5ecd173708c82edc87"
+  integrity sha512-m7uNuniFXmMdVSYEajlQ6us465NtLXoIj9cfYGX9wwzxb5tB2EG1oBUxVF5Q6JHC/HlRCsieYViHA+rprVLpJw==
   dependencies:
-    "@storybook/addons" "5.0.4"
-    "@storybook/components" "5.0.4"
-    "@storybook/core-events" "5.0.4"
-    "@storybook/theming" "5.0.4"
+    "@storybook/addons" "5.0.5"
+    "@storybook/components" "5.0.5"
+    "@storybook/core-events" "5.0.5"
+    "@storybook/theming" "5.0.5"
     core-js "^2.6.5"
     fast-deep-equal "^2.0.1"
     global "^4.3.2"
