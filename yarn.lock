@@ -1622,7 +1622,7 @@
     global "^4.3.2"
     util-deprecate "^1.0.2"
 
-"@storybook/addons@5.0.7", "@storybook/addons@^5.0.6":
+"@storybook/addons@5.0.7", "@storybook/addons@^5.0.7":
   version "5.0.7"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.0.7.tgz#2663cb384a0c840e74dc34d738b4f8173b58a0e5"
   integrity sha512-/4Gwy6DYSSk2FDjJt9lqbrJQliH1Sliy8yQ+a7SThaNxZ3ixiGgonSf55eRyhjyMYTrdUpcy/FjPZo6RcvBzEQ==
