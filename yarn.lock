@@ -1954,24 +1954,24 @@
     react-inspector "^3.0.2"
     uuid "^3.3.2"
 
-"@storybook/addon-info@^5.1.3":
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-5.1.3.tgz#5e979edb69f5f7ac168b80cccaa35509a1ad3b0b"
-  integrity sha512-zI4s7ADtn+qxcqM/KmiF2kkMKL32YF1b2dp+ByBjLoUJIRw4sdkCyFgmX0Y2nQNd+UPGRlM0TIedSqoGjvAFXA==
+"@storybook/addon-info@^5.1.7":
+  version "5.1.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-5.1.7.tgz#ad934d5440aa2c8f1640fce787d8c20f17ba7492"
+  integrity sha512-G2XhlRCuDNAoPXkWjVEdDdykH/4zW0bqAwpOQYXDcK51cUVxkrJhUf2xn3IJSIffzDZUbFVvvVjIcJ7i0kZpog==
   dependencies:
-    "@storybook/addons" "5.1.3"
-    "@storybook/client-logger" "5.1.3"
-    "@storybook/components" "5.1.3"
-    "@storybook/theming" "5.1.3"
+    "@storybook/addons" "5.1.7"
+    "@storybook/client-logger" "5.1.7"
+    "@storybook/components" "5.1.7"
+    "@storybook/theming" "5.1.7"
     core-js "^3.0.1"
     global "^4.3.2"
     marksy "^7.0.0"
     nested-object-assign "^1.0.3"
     prop-types "^15.7.2"
-    react "^16.8.4"
+    react "^16.8.3"
     react-addons-create-fragment "^15.6.2"
     react-element-to-jsx-string "^14.0.2"
-    react-is "^16.8.4"
+    react-is "^16.8.3"
     react-lifecycles-compat "^3.0.4"
     util-deprecate "^1.0.2"
 
@@ -10640,7 +10640,7 @@ react-inspector@^3.0.2:
     is-dom "^1.0.9"
     prop-types "^15.6.1"
 
-react-is@16.8.6, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
+react-is@16.8.6, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4, react-is@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
