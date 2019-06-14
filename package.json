@@ -69,6 +69,6 @@
     "prettier": "1.18.2",
     "react-addons-test-utils": "^15.6.2",
     "react-test-renderer": "^16.8.6",
-    "typescript": "^3.5.1"
+    "typescript": "^3.5.2"
   }
 }
