@@ -1540,7 +1540,7 @@
     prop-types "^15.7.2"
     qs "^6.6.0"
 
-"@storybook/addons@5.1.10", "@storybook/addons@^5.1.9":
+"@storybook/addons@5.1.10", "@storybook/addons@^5.1.10":
   version "5.1.10"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.1.10.tgz#2d8d8ca20b6d9b4652744f5fc00ead483f705435"
   integrity sha512-M9b2PCp9RZxDC6wL7vVt2SCKCGXrrEAOsdpMvU569yB1zoUPEiiqElVDwb91O2eAGPnmd2yjImp90kOpKUW0EA==
