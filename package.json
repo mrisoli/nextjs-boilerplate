@@ -33,7 +33,7 @@
     "polished": "^3.4.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "@percy-io/percy-storybook": "^2.1.0",
