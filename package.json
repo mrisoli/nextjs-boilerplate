@@ -32,7 +32,7 @@
     "next": "^9.0.6",
     "polished": "^3.4.1",
     "react": "^16.10.0",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.10.0",
     "styled-components": "^4.4.0"
   },
   "devDependencies": {
